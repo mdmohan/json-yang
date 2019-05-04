@@ -24,6 +24,13 @@ Prerequisites on Linux:
   `sudo apt-get install libfile-slurp-perl`
 -  the folding/unfolding script is downloaded from (https://tools.ietf.org/html/draft-kwatsen-netmod-artwork-folding-08)
 
+## Usage  
+
+Clone the repo and execute following
+docker build -t jsonyang:1 .
+docker run -v src:dst -w /json-yang jsonyang:1 ./run.sh dst/<json_path> dst/<yang_path>
+
+
 ## Thanks
 
 Many thanks to all the design team and in particular to Carlo Perocchio.
