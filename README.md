@@ -26,9 +26,9 @@ Prerequisites on Linux:
 
 ## Usage  
 
-Clone the repo and execute following
-docker build -t jsonyang:1 .
-docker run -v src:dst -w /json-yang jsonyang:1 ./run.sh dst/<json_path> dst/<yang_path>
+- Clone the repo and execute following  
+- docker build -t jsonyang:1 .  
+- docker run -v src:dst -w /json-yang jsonyang:1 ./run.sh dst/<json_path> dst/<yang_path>  
 
 
 ## Thanks
